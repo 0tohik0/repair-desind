@@ -354,7 +354,7 @@ template {
 
 .button {
   font-family: "Futura Demi";
-  padding: 11px 24px;
+  padding: 9px 21px;
   border: none;
   border-radius: 2px;
   text-transform: uppercase;
@@ -433,7 +433,8 @@ body {
 }
 
 .logo {
-  font-size: 1.074rem;
+  font-family: "Futura Demi";
+  font-size: 1rem;
   color: #E3B873;
   text-transform: uppercase;
 }
@@ -450,6 +451,7 @@ body {
 }
 
 .phone {
+  font-family: "Futura Demi";
   color: #E3B873;
 }
 
@@ -586,7 +588,7 @@ body {
     margin-left: 0;
   }
 }
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 576px) {
   .contacts__phone {
     margin-right: 0;
     color: #fff;
@@ -619,5 +621,10 @@ body {
 @media screen and (max-hight: 520px) {
   .hero__scroll-down {
     display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hero {
+    height: 80vh;
   }
 }
