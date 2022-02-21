@@ -20,11 +20,18 @@
         position: relative
         max-width: 47.85rem
         margin-left: 4.28rem
+    &__title
+        margin-bottom: 1rem
     &__text
         font-size: 1.57rem
         max-width: 500px
+        line-height: 131%
+        margin: 0
+        margin-bottom: 3.5rem
     &__button
-        margin-right: 20px
+        margin-right: 17px
+        padding: 18px 28px
+        min-width: 207px
     &__instagram
         position: absolute
         left: 0
@@ -32,6 +39,8 @@
         max-width: 80px
         height: 100%
     &__scroll-down
+        font-family: 'Yeseva One'
+        font-size: 0.85rem
         position: absolute
         display: flex
         align-items: center
@@ -51,7 +60,7 @@
             height: 30px
             border: 2px solid $primary
             border-radius: 50%
-            margin-left: 12px
+            margin-left: 17px
 .instagram
     display: flex 
     justify-content: center
@@ -64,6 +73,7 @@
         color: $primary
         text-decoration: none
         transform: rotate(90deg)
+        font-size: 1.1rem
         &::after
             content: ''
             width: 50px
@@ -72,10 +82,11 @@
             line-height: 0.8
             margin-left: 8px
 .title
-    margin: 0
     font-family: 'Yeseva One', cursive
+    font-weight: 400
     text-transform: uppercase
     font-size: 2.857rem
+    line-height: 1.3
     &--primary
         color: $primary
 
