@@ -354,7 +354,7 @@ template {
 
 .button {
   font-family: "Futura Demi";
-  padding: 9px 21px;
+  padding: 11px 21px;
   border: none;
   border-radius: 2px;
   text-transform: uppercase;
@@ -571,6 +571,9 @@ img {
   color: #E3B873;
 }
 
+.types {
+  padding-bottom: 100px;
+}
 .types__section-title {
   margin-bottom: 2.21rem;
 }
